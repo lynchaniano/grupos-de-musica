@@ -1,0 +1,28 @@
+body {
+     background-color: #A7DBD8;
+}
+header{
+    background-color: #F38630;
+    height: 120px;
+}
+
+header ul {margin-top: 0; padding: 0; }
+header li {display:inline; padding: 5px;}
+nav a {text-decoration:none;}
+nav a:hover {color: white;}
+
+.centrado{
+    width: 680px;
+    /*background-color: #E0E4CC;*/
+    margin: 0 auto;
+}
+
+.fondogris{
+    background-color: #E0E4CC;
+    padding: 5px 10px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
