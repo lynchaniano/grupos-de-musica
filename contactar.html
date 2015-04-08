@@ -4,67 +4,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Grupos de música rock y pop</title>
+    <title>Contactar | Grupos de música rock y pop</title>
     <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/estilos.css">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="http://i.icomoon.io/public/temp/8fef0aff29/UntitledProject/style.css">
 </head>
 
 <body>
-    <header>
-        <div class="centrado">
-            <nav>
-                <ul>
-                    <li><a href="index.html">Inicio</a>
-                    </li>
-                    <li><a href="grupos-musica.html">Grupos de Música</a>
-                    </li>
-                    <li><a href="contactar.html">Contactar</a>
-                    </li>
-                </ul>
-            </nav>
-            <img class="logo" src="imagenes/logotipo.png" alt="Grupos de música rock y pop">
+    <div class="contenedor">
+        <header>
+
+            
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Inicio</a>
+                        </li>
+                        <li><a href="grupos-musica.html">Grupos de Música</a>
+                        </li>
+                        <li><a href="contactar.html">Contactar</a>
+                        </li>
+                    </ul>
+                </nav>
+                <img class="logo" src="imagenes/logotipo.png" alt="Grupos de música rock y pop">
+            
+        </header>
+        
+            <section>
+                <h1>Contactar</h1>
+                <h1>Si quieres que demos de alta a tu grupo de música, rellena el siguiente formulario. Gracias.</h1>
+                <div id="contacto">
+                    <form action="f">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" id="nombre">
+                        <label for="edad">Edad</label>
+                        <input type="number" name="edad" id="edad">
+                        <label for="email">Correo electrónico</label>
+                        <input type="email" name="email" id="email">
+                        <label for="grupo">Nombre de tu grupo</label>
+                        <input type="text" name="grupo" id="grupo">
+                        <label for="tipomusica">Tipo de música</label>
+                        <select name="tipomusica" id="tipomusica">
+                            <option value="Pop">Pop</option>
+                            <option value="Rock">Rock</option>
+                            <option value="Country">Country</option>
+                            <option value="Hip Hop">Hip Hop</option>
+                            <option value="Heavy">Heavy</option>
+                            <option value="Música tradicional">Música tradicional</option>
+                        </select>
+                        <label for="newsletter">Quiero recibir vuestras noticias</label>
+                        <input type="checkbox" name="newsletter" id="newsletter">
+                        <label for="hombre">Hombre</label>
+                        <input type="radio" name="sexo" id="hombre">
+                        <label for="mujer">Mujer</label>
+                        <input type="radio" name="sexo" id="mujer">
+                        <input type="reset" value="Cancelar">
+                        <input type="submit" value="Enviar">
+
+
+
+                    </form>
+                </div>
+            </section>
+
         </div>
-    </header>
-    <div class="centrado fondogris">
-        <section>
-            <h1>Contactar</h1>
-            <p>Si quieres que demos de alta a tu grupo de música, rellena el siguiente formulario. Gracias.</p>
-            <div id="contacto">
-                <form action="f">
-                    <label for="nombre">Nombre</label>
-                    <input type="text" name="nombre" id="nombre">
-                    <label for="edad">Edad</label>
-                    <input type="number" name="edad" id="edad">
-                    <label for="email">Correo electrónico</label>
-                    <input type="email" name="email" id="email">
-                    <label for="grupo">Nombre de tu grupo</label>
-                    <input type="text" name="grupo" id="grupo">
-                    <label for="tipomusica">Tipo de música</label>
-                    <select name="tipomusica" id="tipomusica">
-                        <option value="Pop">Pop</option>
-                        <option value="Rock">Rock</option>
-                        <option value="Country">Country</option>
-                        <option value="Hip Hop">Hip Hop</option>
-                        <option value="Heavy">Heavy</option>
-                        <option value="Música tradicional">Música tradicional</option>
-                    </select>
-                    <label for="newsletter">Quiero recibir vuestras noticias</label>
-                    <input type="checkbox" name="newsletter" id="newsletter">
-                    <label for="hombre">Hombre</label>
-                    <input type="radio" name="sexo" id="hombre">
-                    <label for="mujer">Mujer</label>
-                    <input type="radio" name="sexo" id="mujer">
-                    <input type="reset" value="Cancelar">
-                    <input type="submit" value="Enviar">
-
-
-
-                </form>
-            </div>
-        </section>
-
-    </div>
+    
 
 </body>
 
