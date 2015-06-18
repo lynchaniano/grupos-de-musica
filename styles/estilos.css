@@ -85,7 +85,7 @@ body {
     padding: 2%;
     background-color: #A7DBD8;
     font-family: 'Expletus Sans', cursive;
-    font-size: 62.5%;
+    font-size: 120%;
     /*1em = 10px*/
     /*para responsive cambio de px=>rem*/
 }
